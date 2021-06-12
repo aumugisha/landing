@@ -1,0 +1,33 @@
+.footer{
+    height: 200px;
+
+    background: linear-gradient(to right, #4b79a1, #283e51); 
+
+
+  }
+
+  .list-inline {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: auto; 
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+
+  .list-inline > li {
+    display: inline-block;
+    margin: 50px;
+
+  }
+
+  .list-inline > li > a{
+color: white;
+font-size: 50px; 
+ }
+
+ .footer p{
+    color: white;
+    font-size: 16px;
+     }

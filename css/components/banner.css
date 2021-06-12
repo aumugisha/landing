@@ -1,0 +1,25 @@
+.banner {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(90deg, rgba(75,121,161,0.4) 0%, rgba(40,62,81,0.4) 100%), url(https://source.unsplash.com/fMveBTz2qWw/1200x500);
+    display: flex;
+    align-items: center;
+
+}
+
+.banner > .container > h1 {
+    color: white;
+    font-size: 50px;
+    
+}
+
+.banner > .container > p {
+    color: white;
+    font-size: 32px;
+    
+}
